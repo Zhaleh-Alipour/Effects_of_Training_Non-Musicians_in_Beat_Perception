@@ -1,0 +1,73 @@
+# Ignore everything inside root data folder, but ...
+**/data/*
+# keep documentation
+!**/data/README.md
+# keep sample end_of_study questionnaire data
+!**/data/End_of_study_Q_sample.xlsx
+# keep sample raw experimental data
+!**/data/1_raw_data_sample/
+!**/data/1_raw_data_sample/**
+
+
+
+# Node dependencies
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Ignore large auditory stimulus folders (stored on OSF)
+# Auditory stimuli available at: ...
+/pre-post_experiment/Experiment/RegPatterns/
+/pre-post_experiment/Experiment/IrregPatterns/
+/pre-post_experiment/Experiment/SingleDurations/
+/pre-post_experiment/Experiment/file.wav.wav 
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Backup files
+*.bak
+~$*.xls*
+~$*.doc*
+~$*.ppt*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# OS generated files
+.DS_Store
+.directory
+.gdb_history
+ehthumbs.db
+Icon?
+*.orig
+old
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# lib files used for local debugging
+/lib/
+/html/lib/
