@@ -1,10 +1,10 @@
 
-# Auditory Training Experiment
+## Auditory Training Experiment
 In this experiment, we had two auditory trainning groups whose training matrial was slightly different. The file `AudTraining2.psyexp` ccorresponds to the **second auditory training group**.
 
 ---
 
-# Running the Experiment for the First Auditory Training Group
+## Running the Experiment for the First Auditory Training Group
 To run the experiment using the stimuli for the **first auditory training group**, follow the steps below.
 
 Step 1: Duplicate the Experiment File
@@ -39,7 +39,7 @@ All other parts of the code can remain unchanged.
 
 ---
 
-# Uploading and Running the Experiment
+## Uploading and Running the Experiment
     - Save the modified `.psyexp` file.
     - Push the changes to GitHub using the commit interface (fill in the commit message and description as needed).
     - Once uploaded, the experiment is ready to be run for the first auditory training group.
