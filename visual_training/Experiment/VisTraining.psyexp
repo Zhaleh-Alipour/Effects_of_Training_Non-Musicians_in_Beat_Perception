@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': ''}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1366, 768]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="VisTraining" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="code_js">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="  thisExp=psychoJS.experiment;&amp;#10;  win=psychoJS.window;&amp;#10;  event=psychoJS.eventManager;&amp;#10;  Array.prototype.append = [].push;&amp;#10;  shuffle = util.shuffle;&amp;#10;  random = Math.random;&amp;#10;  randint = function(min, maxplusone) {&amp;#10;    return Math.floor(Math.random() * (maxplusone - min) ) + min;&amp;#10;  }&amp;#10;  Array.prototype.index = [].indexOf;&amp;#10;  Array.prototype.insert = function ( index, item ) {&amp;#10;&amp;#10;    this.splice( index, 0, item );&amp;#10;&amp;#10;  };" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_2">
+      <CodeComponent name="code_3">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="import copy as copy&amp;#10;#def num1_to_sec(n,isaud=False):&amp;#10;#    if isaud==True:&amp;#10;#        return float(0.220 * n-0.05)&amp;#10;#    return float(0.220 * n)&amp;#10;#&amp;#10;def num1_to_sec(n,isaud=False):&amp;#10;    if isaud==True:&amp;#10;        return float(0.230 * n-0.05)&amp;#10;    return float(0.230 * n)&amp;#10;&amp;#10;#def num3_to_sec(n,isaud=False):&amp;#10;#    if isaud==True:&amp;#10;#        return float(0.240 * n-0.05)&amp;#10;#    return float(0.240 * n)&amp;#10;&amp;#10;def num2_to_sec(n,isaud=False):&amp;#10;    if isaud==True:&amp;#10;        return float(0.250 * n-0.05)&amp;#10;    return float(0.250 * n)&amp;#10;&amp;#10;#def num5_to_sec(n,isaud=False):&amp;#10;#    if isaud==True:&amp;#10;#        return float(0.260 * n-0.05)&amp;#10;#    return float(0.260 * n)&amp;#10;&amp;#10;def num3_to_sec(n,isaud=False):&amp;#10;    if isaud==True:&amp;#10;        return float(0.270 * n-0.05)&amp;#10;    return float(0.270 * n)&amp;#10;    &amp;#10;def shuffle_list(List):&amp;#10;#    global totalShuffle&amp;#10;#    totalShuffle += 1&amp;#10;    counta=0&amp;#10;    countb=0&amp;#10;    countc=0&amp;#10;    for ii in List:&amp;#10;        shuffle(ii)&amp;#10;        d = difFinder(ii)&amp;#10;        if(d == 1):&amp;#10;            counta += 1&amp;#10;        elif(d == 2):&amp;#10;            countb += 1&amp;#10;        elif(d == 3):&amp;#10;            countc += 1&amp;#10;    if(counta == countb and counta == countc):&amp;#10;        shuffle(List)&amp;#10;        return List&amp;#10;    else:&amp;#10;        return shuffle_list(List)&amp;#10;&amp;#10;def difFinder(i):&amp;#10;    if i[0] != i[1] and i[0] != i[2]:&amp;#10;        return 1;&amp;#10;    if i[1] != i[0] and i[1] != i[2]:&amp;#10;        return 2;&amp;#10;    if i[2] != i[0] and i[2] != i[1]:&amp;#10;        return 3;&amp;#10;&amp;#10;total=[[[4,1,3,3,1,1],[4,1,3,3,1,1],[4,3,1,3,1,1]],&amp;#10;[[4,3,1,2,2,1],[4,3,1,2,2,1],[4,1,3,2,2,1]],&amp;#10;[[1,1,2,3,1,4,1],[1,1,2,3,1,4,1],[1,1,2,1,3,4,1]],&amp;#10;[[2,2,3,1,1,3,1],[2,2,3,1,1,3,1],[2,2,3,1,3,1,1]],&amp;#10;[[2,1,1,2,2,4,1],[2,1,1,2,2,4,1],[1,1,2,2,2,4,1]],&amp;#10;[[2,2,1,3,3,1,1],[2,2,1,3,3,1,1],[2,2,1,3,1,3,1]],&amp;#10;[[4,1,1,2,3,1,1],[4,1,1,2,3,1,1],[4,1,1,2,1,3,1]],&amp;#10;[[2,1,1,3,1,1,3,1],[2,1,1,3,1,1,3,1],[2,1,1,3,1,3,1,1]],&amp;#10;[[4,1,1,1,1,3,1,1],[4,1,1,1,1,3,1,1],[4,1,1,1,1,1,3,1]],&amp;#10;[[4,2,2,1,1,1,1,1],[4,2,2,1,1,1,1,1],[4,2,1,1,2,1,1,1]],&amp;#10;[[1,1,2,3,1,1,3,1],[1,1,2,3,1,1,3,1],[1,1,2,3,1,3,1,1]],&amp;#10;[[2,2,1,1,1,1,4,1],[2,2,1,1,1,1,4,1],[2,1,1,2,1,1,4,1]]]&amp;#10;&amp;#10;total2=[[[1,1,3.5,4.5,3.5,1],[1,1,3.5,4.5,3.5,1],[1,3.5,1,4.5,3.5,1]],&amp;#10;[[1,3.5,1.4,4.5,1.4,1],[1,3.5,1.4,4.5,1.4,1],[3.5,1,1.4,4.5,1.4,1]],&amp;#10;[[1.4,3.5,1.4,4.5,1,1],[1.4,3.5,1.4,4.5,1,1],[1.4,3.5,1.4,1,4.5,1]],&amp;#10;[[3.5,3.5,1,4.5,1,1],[3.5,3.5,1,4.5,1,1],[3.5,3.5,4.5,1,1,1]],&amp;#10;[[4.5,1,1,3.5,3.5,1],[4.5,1,1,3.5,3.5,1],[1,4.5,1,3.5,3.5,1]],&amp;#10;[[4.5,1,1.4,3.5,1.4,1],[4.5,1,1.4,3.5,1.4,1],[1,4.5,1.4,3.5,1.4,1]],&amp;#10;[[1,3.5,1.4,3.5,1.4,1,1],[1,3.5,1.4,3.5,1.4,1,1],[1,1.4,3.5,3.5,1.4,1,1]],&amp;#10;[[1.4,1,4.5,1.4,1.4,1,1],[1.4,1,4.5,1.4,1.4,1,1],[1.4,4.5,1,1.4,1.4,1,1]],&amp;#10;[[1.4,1,4.5,3.5,1,1,1],[1.4,1,4.5,3.5,1,1,1],[1.4,4.5,1,3.5,1,1,1]],&amp;#10;[[3.5,1.4,3.5,1.4,1,1,1],[3.5,1.4,3.5,1.4,1,1,1],[3.5,1.4,1.4,3.5,1,1,1]],&amp;#10;[[4.5,1,1.4,1.4,1,1.4,1],[4.5,1,1.4,1.4,1,1.4,1],[1,4.5,1.4,1.4,1,1.4,1]],&amp;#10;[[4.5,1.4,1,3.5,1,1,1],[4.5,1.4,1,3.5,1,1,1],[4.5,1.4,1,1,3.5,1,1]],&amp;#10;[[1,1.4,1,1.4,3.5,3.5,1],[1,1.4,1,1.4,3.5,3.5,1],[1,1.4,1,3.5,1.4,3.5,1]],&amp;#10;[[1,1.4,1.4,1,4.5,1.4,1],[1,1.4,1.4,1,4.5,1.4,1],[1,1.4,1.4,4.5,1,1.4,1]],&amp;#10;[[1,1.4,4.5,1,1,3.5,1],[1,1.4,4.5,1,1,3.5,1],[1,1.4,4.5,1,3.5,1,1]],&amp;#10;[[1.4,1.4,1,1.4,4.5,1,1],[1.4,1.4,1,1.4,4.5,1,1],[1.4,1.4,1,4.5,1.4,1,1]],&amp;#10;[[1.4,3.5,1,1,1.4,3.5,1],[1.4,3.5,1,1,1.4,3.5,1],[1.4,3.5,1,1,3.5,1.4,1]],&amp;#10;[[3.5,1.4,1,4.5,1,1,1],[3.5,1.4,1,4.5,1,1,1],[3.5,1.4,1,1,4.5,1,1]],&amp;#10;[[1,1,1,1.4,4.5,1,1.4,1],[1,1,1,1.4,4.5,1,1.4,1],[1,1,1,4.5,1.4,1,1.4,1]],&amp;#10;[[1,1,3.5,1.4,1,3.5,1,1],[1,1,3.5,1.4,1,3.5,1,1],[1,1,3.5,1.4,3.5,1,1,1]],&amp;#10;[[1,1,3.5,1.4,1.4,1,1.4,1],[1,1,3.5,1.4,1.4,1,1.4,1],[1,1,1.4,3.5,1.4,1,1.4,1]],&amp;#10;[[1.4,1,4.5,1,1.4,1,1,1],[1.4,1,4.5,1,1.4,1,1,1],[1.4,4.5,1,1,1.4,1,1,1]],&amp;#10;[[1.4,3.5,3.5,1,1,1,1,1],[1.4,3.5,3.5,1,1,1,1,1],[1.4,3.5,1,3.5,1,1,1,1]],&amp;#10;[[3.5,1,1,3.5,1,1.4,1,1],[3.5,1,1,3.5,1,1.4,1,1],[3.5,1,1,1,3.5,1.4,1,1]],&amp;#10;[[1,3.5,1,4.5,1,1,1,1],[1,3.5,1,4.5,1,1,1,1],[3.5,1,1,4.5,1,1,1,1]],&amp;#10;[[1,4.5,1,1,3.5,1,1,1],[1,4.5,1,1,3.5,1,1,1],[1,4.5,1,1,1,3.5,1,1]],&amp;#10;[[1.4,1,1.4,3.5,1.4,1,1,1],[1.4,1,1.4,3.5,1.4,1,1,1],[1.4,1,1.4,1.4,3.5,1,1,1]],&amp;#10;[[3.5,1,1,4.5,1,1,1,1],[3.5,1,1,4.5,1,1,1,1],[3.5,1,1,1,4.5,1,1,1]],&amp;#10;[[3.5,1.4,1.4,1,1,1,1.4,1],[3.5,1.4,1.4,1,1,1,1.4,1],[1.4,3.5,1.4,1,1,1,1.4,1]],&amp;#10;[[4.5,1,1,1,1.4,1.4,1,1],[4.5,1,1,1,1.4,1.4,1,1],[1,4.5,1,1,1.4,1.4,1,1]]]&amp;#10;&amp;#10;totalSD=[[[1],[1],[2]],[[1],[1],[3]],&amp;#10;[[1],[1],[4]],[[1],[1],[1.4]], &amp;#10;[[1],[1],[3.5]],[[1],[1],[4.5]],&amp;#10;[[2],[2],[1]],[[2],[2],[3]],&amp;#10;[[2],[2],[4]],[[2],[2],[1.4]],&amp;#10;[[2],[2],[3.5]],[[2],[2],[4.5]],&amp;#10;[[3],[3],[1]],[[3],[3],[2]],&amp;#10;[[3],[3],[4]],[[3],[3],[1.4]],&amp;#10;[[3],[3],[3.5]],[[3],[3],[4.5]],&amp;#10;[[4],[4],[1]],[[4],[4],[2]],&amp;#10;[[4],[4],[3]],[[4],[4],[1.4]],&amp;#10;[[4],[4],[3.5]],[[4],[4],[4.5]],&amp;#10;[[1.4],[1.4],[1]],[[1.4],[1.4],[2]],&amp;#10;[[1.4],[1.4],[3]],[[1.4],[1.4],[4]],&amp;#10;[[1.4],[1.4],[3.5]],[[1.4],[1.4],[4.5]],&amp;#10;[[3.5],[3.5],[1]],[[3.5],[3.5],[2]],&amp;#10;[[3.5],[3.5],[3]],[[3.5],[3.5],[4]],&amp;#10;[[3.5],[3.5],[1.4]],[[3.5],[3.5],[4.5]],&amp;#10;[[4.5],[4.5],[1]],[[4.5],[4.5],[2]],&amp;#10;[[4.5],[4.5],[3]],[[4.5],[4.5],[4]],&amp;#10;[[4.5],[4.5],[1.4]],[[4.5],[4.5],[3.5]]]&amp;#10;a=0&amp;#10;b=0&amp;#10;c=0&amp;#10;a2=0&amp;#10;b2=0&amp;#10;c2=0&amp;#10;a3=0&amp;#10;b3=0&amp;#10;c3=0&amp;#10;aaud=0&amp;#10;baud=0&amp;#10;caud=0&amp;#10;a2aud=0&amp;#10;b2aud=0&amp;#10;c2aud=0&amp;#10;a3aud=0&amp;#10;b3aud=0&amp;#10;c3aud=0&amp;#10;### _________________________&amp;#10;#def shuffle_list_compare(List, lastLists):&amp;#10;#    def shuffleCompare(l, lastCorrects):&amp;#10;#        shuffle(l)&amp;#10;#        diff = difFinder(l)&amp;#10;#        while diff in lastCorrects:&amp;#10;#            shuffle(l)&amp;#10;#            diff = difFinder(l)&amp;#10;#        print(diff, lastCorrects)&amp;#10;#        return l&amp;#10;#    ffinal = []&amp;#10;#    for index, ii in enumerate(List):&amp;#10;#        lastCorrects = []&amp;#10;#        for i in lastLists:&amp;#10;#            lastCorrects.append(difFinder(i[index]))&amp;#10;#        shuffeled = shuffleCompare(ii, lastCorrects)&amp;#10;#        ffinal.append(shuffeled)&amp;#10;#    return ffinal&amp;#10;&amp;#10;def shuffle_list_compare(List, lastLists):&amp;#10;    def shuffleCompare(l, lastCorrects):&amp;#10;        shuffle(l)&amp;#10;        diff = difFinder(l)&amp;#10;        while diff in lastCorrects:&amp;#10;            shuffle(l)&amp;#10;            diff = difFinder(l)&amp;#10;        print(diff, lastCorrects)&amp;#10;        return l&amp;#10;&amp;#10;    fffinal = []&amp;#10;    index = 0&amp;#10;    for ii in List:&amp;#10;        lastCorrects = []&amp;#10;        for i in lastLists:&amp;#10;            lastCorrects.append(difFinder(i[index]))&amp;#10;        shuffeled = shuffleCompare(ii, lastCorrects)&amp;#10;        fffinal.append(shuffeled)&amp;#10;        index = index + 1&amp;#10;    return fffinal&amp;#10;&amp;#10;x = []&amp;#10;for i in range(3):&amp;#10;    if i == 0:&amp;#10;        shuf = shuffle_list_compare(copy.deepcopy(total),x)&amp;#10;        x.append(shuf)&amp;#10;    else:&amp;#10;        shuf = shuffle_list_compare(copy.deepcopy(total), x)&amp;#10;        x.append(shuf)&amp;#10;        &amp;#10;for i in x:&amp;#10;    shuffle(i)&amp;#10;    &amp;#10;finalList = []&amp;#10;for i in x:&amp;#10;    for ii in i:&amp;#10;        finalList.append(copy.deepcopy(ii))&amp;#10;&amp;#10;print(f'final list is {finalList}')&amp;#10;for i in finalList:&amp;#10;  i.append('black')&amp;#10;ran1 = randint(10,14)&amp;#10;finalList.insert(ran1,[[2,2,4,1,3,1],[2,2,4,1,3,1],[2,2,4,3,1,1],'green'])&amp;#10;ran1 = randint(22,26)&amp;#10;finalList.insert(ran1,[[4,2,2,1,1,2,1],[4,2,2,1,1,2,1],[4,2,2,2,1,1,1],'green'])&amp;#10;####___________________________________&amp;#10;list2=shuffle_list(copy.deepcopy(total2))&amp;#10;for i in list2:&amp;#10;  i.append('black')&amp;#10;ran2 = randint(8,12)&amp;#10;list2.insert(ran2,[[1,1.4,1,1.4,3.5,3.5,1],[1,1.4,1,3.5,1.4,3.5,1],[1,1.4,1,1.4,3.5,3.5,1],'green'])&amp;#10;ran2 = randint(18,22)&amp;#10;list2.insert(ran2,[[3.5,1.4,1.4,3.5,1,1,1],[3.5,1.4,3.5,1.4,1,1,1],[3.5,1.4,3.5,1.4,1,1,1],'green'])&amp;#10;&amp;#10;listSD=shuffle_list(copy.deepcopy(totalSD))&amp;#10;for i in listSD:&amp;#10;  i.append('black')&amp;#10;ran3 = randint(8,12)&amp;#10;listSD.insert(ran3,[[4],[4],[3],'green'])&amp;#10;ran3 = randint(18,22)&amp;#10;listSD.insert(ran3,[[4.5],[4.5],[2],'green'])&amp;#10;#list1aud=shuffle_list(copy.deepcopy(total))&amp;#10;#list2aud=shuffle_list(copy.deepcopy(total2))&amp;#10;#listSDaud=shuffle_list(copy.deepcopy(totalSD))&amp;#10;pListVisReg=[#[[2,2,4,1,3,1],[2,2,4,3,1,1],[2,2,4,1,3,1],'black'],&amp;#10;#[[3,1,4,1,3,1],[3,1,4,1,3,1],[3,1,4,3,1,1],'black'],&amp;#10;[[2,1,1,3,1,1,3,1],[2,1,1,3,1,3,1,1],[2,1,1,3,1,1,3,1],'green']]&amp;#10;#[[1,3,4,2,2,1],[3,1,4,2,2,1],[3,1,4,2,2,1],'black'],&amp;#10;#[[2,1,1,2,2,3,1,1],[2,1,1,2,2,3,1,1],[2,1,1,2,2,1,3,1],'green'],&amp;#10;#[[4,1,1,1,1,3,1,1],[4,1,1,1,1,3,1,1],[4,1,1,1,1,1,3,1],'black']]&amp;#10;#pListVisReg = shuffle_list(copy.deepcopy(total))&amp;#10;#pListVisIrreg = shuffle_list(copy.deepcopy(total2))&amp;#10;pListVisIrreg = [[[1,1,3.5,4.5,3.5,1],[1,3.5,1,4.5,3.5,1],[1,1,3.5,4.5,3.5,1],'black'],&amp;#10;[[1.4,1.4,1,1.4,4.5,1,1],[1.4,1.4,1,1.4,4.5,1,1],[1.4,1.4,1,4.5,1.4,1,1],'green'],&amp;#10;[[3.5,1.4,1.4,1,1,1,1.4,1],[3.5,1.4,1.4,1,1,1,1.4,1],[1.4,3.5,1.4,1,1,1,1.4,1],'black'],&amp;#10;[[3.5,1,1.4,4.5,1.4,1],[1,3.5,1.4,4.5,1.4,1],[1,3.5,1.4,4.5,1.4,1],'black'],&amp;#10;[[1,3.5,1.4,3.5,1.4,1,1],[1,1.4,3.5,3.5,1.4,1,1],[1,3.5,1.4,3.5,1.4,1,1],'green'],&amp;#10;[[1.4,3.5,3.5,1,1,1,1,1],[1.4,3.5,3.5,1,1,1,1,1],[1.4,3.5,1,3.5,1,1,1,1],'black']]&amp;#10;#pListVisSD = shuffle_list(copy.deepcopy(totalSD))&amp;#10;pListVisSD = [[[1],[1],[3],'black'],&amp;#10;[[2],[2],[1],'green'],&amp;#10;[[3.5],[1.4],[3.5],'black'],&amp;#10;[[4.5],[4.5],[3],'green'],&amp;#10;[[2],[3.5],[3.5],'black'],&amp;#10;[[2],[3.5],[2],'black']]&amp;#10;#pListAudReg = shuffle_list(copy.deepcopy(total))&amp;#10;#pListAudIrreg = shuffle_list(copy.deepcopy(total2))&amp;#10;#pListAudSD = shuffle_list(copy.deepcopy(totalSD))&amp;#10;intervall=len(finalList[a][b])&amp;#10;intervall2=len(list2[a2][b2])&amp;#10;#intervallaud=len(list1aud[aaud][baud])&amp;#10;#intervall2aud=len(list2aud[a2aud][b2aud])&amp;#10;#intervallvolset=len(total[avolset][bvolset])&amp;#10;pIntervall = len(total[a][b])&amp;#10;def rotation(intervall):&amp;#10;    rot5=[0,45,0,45,0,45]&amp;#10;    rot6=[0,45,0,45,0,45,0]&amp;#10;    rot7=[0,45,0,45,0,45,0,45]&amp;#10;    if intervall == 6:&amp;#10;        return rot5&amp;#10;    elif intervall == 7:&amp;#10;        return rot6&amp;#10;    elif intervall == 8:&amp;#10;        return rot7&amp;#10;    elif intervall == 1:&amp;#10;        return (0,0)&amp;#10;def positionn(intervall):&amp;#10;    pos5=[(-5,0),(5,0),(-5,0),(5,0),(-5,0),(5,0)]&amp;#10;    pos6=[(-5,0),(5,0),(-5,0),(5,0),(-5,0),(5,0),(-5,0)]&amp;#10;    pos7=[(-5,0),(5,0),(-5,0),(5,0),(-5,0),(5,0),(-5,0),(5,0)]&amp;#10;    if intervall == 6:&amp;#10;        return pos5&amp;#10;    elif intervall == 7:&amp;#10;        return pos6&amp;#10;    elif intervall == 8:&amp;#10;        return pos7&amp;#10;&amp;#10;        &amp;#10;def repetitionn(intervall):&amp;#10;    if intervall == 6:&amp;#10;        return 18&amp;#10;    elif intervall == 7:&amp;#10;        return 21&amp;#10;    elif intervall == 8:&amp;#10;        return 24&amp;#10;&amp;#10;def durationn(intervall,isAud=False): #write lists inside of function!&amp;#10;    if(isAud == False):&amp;#10;        start5=[1.5,0,0,0,0,0]&amp;#10;        start6=[1.5,0,0,0,0,0,0]&amp;#10;        start7=[1.5,0,0,0,0,0,0,0]&amp;#10;    else:&amp;#10;        start5=[1.5,0.05,0.05,0.05,0.05,0.05]&amp;#10;        start6=[1.5,0.05,0.05,0.05,0.05,0.05,0.05]&amp;#10;        start7=[1.5,0.05,0.05,0.05,0.05,0.05,0.05,0.05]&amp;#10;&amp;#10;    if intervall == 6:&amp;#10;        return start5&amp;#10;    elif intervall == 7:&amp;#10;        return start6&amp;#10;    elif intervall == 8:&amp;#10;        return start7&amp;#10;# controls speed&amp;#10;def getRandomVis(sd = False): &amp;#10;    global visCounter1,visCounter2,visCounter3&amp;#10;    print(f&quot;C1 : {visCounter1} , C2 : {visCounter2}, C3: {visCounter3}&quot;)&amp;#10;    r = randint(1,4)&amp;#10;    if sd == True:&amp;#10;        if r == 1:&amp;#10;            if(visCounter1 &lt; 12):&amp;#10;                visCounter1 += 1&amp;#10;                print(f&quot;viscounter1 = {visCounter1}&quot;)&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;        if r == 2:&amp;#10;            if(visCounter2 &lt; 12):&amp;#10;                visCounter2 += 1&amp;#10;                print(f&quot;viscounter2 = {visCounter2}&quot;)&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;        if r == 3:&amp;#10;            if(visCounter3 &lt; 12):&amp;#10;                visCounter3 += 1&amp;#10;                print(f&quot;viscounter3 = {visCounter3}&quot;)&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;    else:&amp;#10;        if r == 1:&amp;#10;            if(visCounter1 &lt; 12):&amp;#10;                visCounter1 += 1&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;        if r == 2:&amp;#10;            if(visCounter2 &lt; 12):&amp;#10;                visCounter2 += 1&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;        if r == 3:&amp;#10;            if(visCounter3 &lt; 12):&amp;#10;                visCounter3 += 1&amp;#10;                return r&amp;#10;            else:&amp;#10;                return getRandomVis()&amp;#10;&amp;#10;# ran=randint(1,3)&amp;#10;def stop(List,a,b,c,isAud,ran):&amp;#10;    if ran==1:&amp;#10;        if(isAud):&amp;#10;            return num1_to_sec(List[a][b][c],True)&amp;#10;        else:&amp;#10;            return num1_to_sec(List[a][b][c])&amp;#10;    elif ran==2:&amp;#10;        if(isAud):&amp;#10;            return num2_to_sec(List[a][b][c],True)&amp;#10;        else:&amp;#10;            return num2_to_sec(List[a][b][c])&amp;#10;    elif ran==3:&amp;#10;        if(isAud):&amp;#10;            return num3_to_sec(List[a][b][c],True)&amp;#10;        else:&amp;#10;            return num3_to_sec(List[a][b][c])&amp;#10;#    elif ran==4:&amp;#10;#        if(isAud):&amp;#10;#            return num4_to_sec(List[a][b][c],True)&amp;#10;#        else:&amp;#10;#            return num4_to_sec(List[a][b][c])&amp;#10;#    elif ran==5:&amp;#10;#        if(isAud):&amp;#10;#            return num5_to_sec(List[a][b][c],True)&amp;#10;#        else:&amp;#10;#            return num5_to_sec(List[a][b][c])&amp;#10;#    elif ran==6:&amp;#10;#        if(isAud):&amp;#10;#            return num6_to_sec(List[a][b][c],True)&amp;#10;#        else:&amp;#10;#            return num6_to_sec(List[a][b][c])&amp;#10;&amp;#10;# this code is related to the fixation cross in the middle of the screen&amp;#10;cross = visual.ShapeStim(&amp;#10;    win=win, name='cross', vertices='cross',&amp;#10;    size=(0.05, 0.05),&amp;#10;    ori=0, pos=(0, 0),&amp;#10;    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1], fillColorSpace='rgb',&amp;#10;    opacity=1, depth=-1.0, interpolate=True)&amp;#10;&amp;#10;counter=0&amp;#10;L1=[0,0,0,0,0,0]&amp;#10;L2=[0,0,0,0,0,0]&amp;#10;L3=[0,0,0,0,0,0]&amp;#10;L4=[0,0,0,1,0,0]&amp;#10;L5=[0,0,0,0,0,0]&amp;#10;L6=[0,0,0,0,0,0]&amp;#10;order=[L1,L2,L3,L4,L5,L6]&amp;#10;#shuffle(order)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="function num1_to_sec(n, isaud = false) {&amp;#10;    if ((isaud === true)) {&amp;#10;        return Number.parseFloat(((0.23 * n) - 0.05));&amp;#10;    }&amp;#10;    return Number.parseFloat((0.23 * n));&amp;#10;}&amp;#10;function num2_to_sec(n, isaud = false) {&amp;#10;    if ((isaud === true)) {&amp;#10;        return Number.parseFloat(((0.25 * n) - 0.05));&amp;#10;    }&amp;#10;    return Number.parseFloat((0.25 * n));&amp;#10;}&amp;#10;function num3_to_sec(n, isaud = false) {&amp;#10;    if ((isaud === true)) {&amp;#10;        return Number.parseFloat(((0.27 * n) - 0.05));&amp;#10;    }&amp;#10;    return Number.parseFloat((0.27 * n));&amp;#10;}&amp;#10;function shuffle_list(List) {&amp;#10;    var counta, countb, countc, d;&amp;#10;    counta = 0;&amp;#10;    countb = 0;&amp;#10;    countc = 0;&amp;#10;    for (var ii, _pj_c = 0, _pj_a = List, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;        ii = _pj_a[_pj_c];&amp;#10;        shuffle(ii);&amp;#10;        d = difFinder(ii);&amp;#10;        if ((d === 1)) {&amp;#10;            counta += 1;&amp;#10;        } else {&amp;#10;            if ((d === 2)) {&amp;#10;                countb += 1;&amp;#10;            } else {&amp;#10;                if ((d === 3)) {&amp;#10;                    countc += 1;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    if (((counta === countb) &amp;&amp; (counta === countc))) {&amp;#10;        shuffle(List);&amp;#10;        return List;&amp;#10;    } else {&amp;#10;        return shuffle_list(List);&amp;#10;    }&amp;#10;}&amp;#10;//difFinder=function(i) {&amp;#10;//    function arrays_equal(a, b) { return !!a &amp;&amp; !!b &amp;&amp; !(a &lt; b || b &lt; a); }&amp;#10;//    if (!arrays_equal(i[0], i[1]) &amp;&amp; !arrays_equal(i[0], i[2])) {&amp;#10;//        return 1;&amp;#10;//    }&amp;#10;//    if (!arrays_equal(i[0], i[1]) &amp;&amp; !arrays_equal(i[1], i[2])) {&amp;#10;//        return 2;&amp;#10;//    }&amp;#10;//    if (!arrays_equal(i[0], i[2]) &amp;&amp; !arrays_equal(i[1], i[2])) {&amp;#10;//        return 3;&amp;#10;//    }&amp;#10;//}&amp;#10;&amp;#10;total = [[[4, 1, 3, 3, 1, 1], [4, 1, 3, 3, 1, 1], [4, 3, 1, 3, 1, 1]], [[4, 3, 1, 2, 2, 1], [4, 3, 1, 2, 2, 1], [4, 1, 3, 2, 2, 1]], [[1, 1, 2, 3, 1, 4, 1], [1, 1, 2, 3, 1, 4, 1], [1, 1, 2, 1, 3, 4, 1]],[[2, 2, 3, 1, 1, 3, 1], [2, 2, 3, 1, 1, 3, 1], [2, 2, 3, 1, 3, 1, 1]],[[2, 1, 1, 2, 2, 4, 1], [2, 1, 1, 2, 2, 4, 1], [1, 1, 2, 2, 2, 4, 1]],[[2, 2, 1, 3, 3, 1, 1], [2, 2, 1, 3, 3, 1, 1], [2, 2, 1, 3, 1, 3, 1]],[[4, 1, 1, 2, 3, 1, 1], [4, 1, 1, 2, 3, 1, 1], [4, 1, 1, 2, 1, 3, 1]],[[2, 1, 1, 3, 1, 1, 3, 1], [2, 1, 1, 3, 1, 1, 3, 1], [2, 1, 1, 3, 1, 3, 1, 1]], [[4, 1, 1, 1, 1, 3, 1, 1], [4, 1, 1, 1, 1, 3, 1, 1], [4, 1, 1, 1, 1, 1, 3, 1]], [[4, 2, 2, 1, 1, 1, 1, 1], [4, 2, 2, 1, 1, 1, 1, 1], [4, 2, 1, 1, 2, 1, 1, 1]],[[1, 1, 2, 3, 1, 1, 3, 1], [1, 1, 2, 3, 1, 1, 3, 1], [1, 1, 2, 3, 1, 3, 1, 1]], [[2, 2, 1, 1, 1, 1, 4, 1], [2, 2, 1, 1, 1, 1, 4, 1], [2, 1, 1, 2, 1, 1, 4, 1]]];&amp;#10;total2 = [[[1, 1, 3.5, 4.5, 3.5, 1], [1, 1, 3.5, 4.5, 3.5, 1], [1, 3.5, 1, 4.5, 3.5, 1]], [[1, 3.5, 1.4, 4.5, 1.4, 1], [1, 3.5, 1.4, 4.5, 1.4, 1], [3.5, 1, 1.4, 4.5, 1.4, 1]], [[1.4, 3.5, 1.4, 4.5, 1, 1], [1.4, 3.5, 1.4, 4.5, 1, 1], [1.4, 3.5, 1.4, 1, 4.5, 1]], [[3.5, 3.5, 1, 4.5, 1, 1], [3.5, 3.5, 1, 4.5, 1, 1], [3.5, 3.5, 4.5, 1, 1, 1]], [[4.5, 1, 1, 3.5, 3.5, 1], [4.5, 1, 1, 3.5, 3.5, 1], [1, 4.5, 1, 3.5, 3.5, 1]], [[4.5, 1, 1.4, 3.5, 1.4, 1], [4.5, 1, 1.4, 3.5, 1.4, 1], [1, 4.5, 1.4, 3.5, 1.4, 1]], [[1, 3.5, 1.4, 3.5, 1.4, 1, 1], [1, 3.5, 1.4, 3.5, 1.4, 1, 1], [1, 1.4, 3.5, 3.5, 1.4, 1, 1]], [[1.4, 1, 4.5, 1.4, 1.4, 1, 1], [1.4, 1, 4.5, 1.4, 1.4, 1, 1], [1.4, 4.5, 1, 1.4, 1.4, 1, 1]], [[1.4, 1, 4.5, 3.5, 1, 1, 1], [1.4, 1, 4.5, 3.5, 1, 1, 1], [1.4, 4.5, 1, 3.5, 1, 1, 1]], [[3.5, 1.4, 3.5, 1.4, 1, 1, 1], [3.5, 1.4, 3.5, 1.4, 1, 1, 1], [3.5, 1.4, 1.4, 3.5, 1, 1, 1]], [[4.5, 1, 1.4, 1.4, 1, 1.4, 1], [4.5, 1, 1.4, 1.4, 1, 1.4, 1], [1, 4.5, 1.4, 1.4, 1, 1.4, 1]], [[4.5, 1.4, 1, 3.5, 1, 1, 1], [4.5, 1.4, 1, 3.5, 1, 1, 1], [4.5, 1.4, 1, 1, 3.5, 1, 1]], [[1, 1.4, 1, 1.4, 3.5, 3.5, 1], [1, 1.4, 1, 1.4, 3.5, 3.5, 1], [1, 1.4, 1, 3.5, 1.4, 3.5, 1]], [[1, 1.4, 1.4, 1, 4.5, 1.4, 1], [1, 1.4, 1.4, 1, 4.5, 1.4, 1], [1, 1.4, 1.4, 4.5, 1, 1.4, 1]], [[1, 1.4, 4.5, 1, 1, 3.5, 1], [1, 1.4, 4.5, 1, 1, 3.5, 1], [1, 1.4, 4.5, 1, 3.5, 1, 1]], [[1.4, 1.4, 1, 1.4, 4.5, 1, 1], [1.4, 1.4, 1, 1.4, 4.5, 1, 1], [1.4, 1.4, 1, 4.5, 1.4, 1, 1]], [[1.4, 3.5, 1, 1, 1.4, 3.5, 1], [1.4, 3.5, 1, 1, 1.4, 3.5, 1], [1.4, 3.5, 1, 1, 3.5, 1.4, 1]], [[3.5, 1.4, 1, 4.5, 1, 1, 1], [3.5, 1.4, 1, 4.5, 1, 1, 1], [3.5, 1.4, 1, 1, 4.5, 1, 1]], [[1, 1, 1, 1.4, 4.5, 1, 1.4, 1], [1, 1, 1, 1.4, 4.5, 1, 1.4, 1], [1, 1, 1, 4.5, 1.4, 1, 1.4, 1]], [[1, 1, 3.5, 1.4, 1, 3.5, 1, 1], [1, 1, 3.5, 1.4, 1, 3.5, 1, 1], [1, 1, 3.5, 1.4, 3.5, 1, 1, 1]], [[1, 1, 3.5, 1.4, 1.4, 1, 1.4, 1], [1, 1, 3.5, 1.4, 1.4, 1, 1.4, 1], [1, 1, 1.4, 3.5, 1.4, 1, 1.4, 1]], [[1.4, 1, 4.5, 1, 1.4, 1, 1, 1], [1.4, 1, 4.5, 1, 1.4, 1, 1, 1], [1.4, 4.5, 1, 1, 1.4, 1, 1, 1]], [[1.4, 3.5, 3.5, 1, 1, 1, 1, 1], [1.4, 3.5, 3.5, 1, 1, 1, 1, 1], [1.4, 3.5, 1, 3.5, 1, 1, 1, 1]], [[3.5, 1, 1, 3.5, 1, 1.4, 1, 1], [3.5, 1, 1, 3.5, 1, 1.4, 1, 1], [3.5, 1, 1, 1, 3.5, 1.4, 1, 1]], [[1, 3.5, 1, 4.5, 1, 1, 1, 1], [1, 3.5, 1, 4.5, 1, 1, 1, 1], [3.5, 1, 1, 4.5, 1, 1, 1, 1]], [[1, 4.5, 1, 1, 3.5, 1, 1, 1], [1, 4.5, 1, 1, 3.5, 1, 1, 1], [1, 4.5, 1, 1, 1, 3.5, 1, 1]], [[1.4, 1, 1.4, 3.5, 1.4, 1, 1, 1], [1.4, 1, 1.4, 3.5, 1.4, 1, 1, 1], [1.4, 1, 1.4, 1.4, 3.5, 1, 1, 1]], [[3.5, 1, 1, 4.5, 1, 1, 1, 1], [3.5, 1, 1, 4.5, 1, 1, 1, 1], [3.5, 1, 1, 1, 4.5, 1, 1, 1]], [[3.5, 1.4, 1.4, 1, 1, 1, 1.4, 1], [3.5, 1.4, 1.4, 1, 1, 1, 1.4, 1], [1.4, 3.5, 1.4, 1, 1, 1, 1.4, 1]], [[4.5, 1, 1, 1, 1.4, 1.4, 1, 1], [4.5, 1, 1, 1, 1.4, 1.4, 1, 1], [1, 4.5, 1, 1, 1.4, 1.4, 1, 1]]];&amp;#10;totalSD = [[[1], [1], [2]], [[1], [1], [3]], [[1], [1], [4]], [[1], [1], [1.4]], [[1], [1], [3.5]], [[1], [1], [4.5]], [[2], [2], [1]], [[2], [2], [3]], [[2], [2], [4]], [[2], [2], [1.4]], [[2], [2], [3.5]], [[2], [2], [4.5]], [[3], [3], [1]], [[3], [3], [2]], [[3], [3], [4]], [[3], [3], [1.4]], [[3], [3], [3.5]], [[3], [3], [4.5]], [[4], [4], [1]], [[4], [4], [2]], [[4], [4], [3]], [[4], [4], [1.4]], [[4], [4], [3.5]], [[4], [4], [4.5]], [[1.4], [1.4], [1]], [[1.4], [1.4], [2]], [[1.4], [1.4], [3]], [[1.4], [1.4], [4]], [[1.4], [1.4], [3.5]], [[1.4], [1.4], [4.5]], [[3.5], [3.5], [1]], [[3.5], [3.5], [2]], [[3.5], [3.5], [3]], [[3.5], [3.5], [4]], [[3.5], [3.5], [1.4]], [[3.5], [3.5], [4.5]], [[4.5], [4.5], [1]], [[4.5], [4.5], [2]], [[4.5], [4.5], [3]], [[4.5], [4.5], [4]], [[4.5], [4.5], [1.4]], [[4.5], [4.5], [3.5]]];&amp;#10;a = 0;&amp;#10;b = 0;&amp;#10;c = 0;&amp;#10;a2 = 0;&amp;#10;b2 = 0;&amp;#10;c2 = 0;&amp;#10;a3 = 0;&amp;#10;b3 = 0;&amp;#10;c3 = 0;&amp;#10;aaud = 0;&amp;#10;baud = 0;&amp;#10;caud = 0;&amp;#10;a2aud = 0;&amp;#10;b2aud = 0;&amp;#10;c2aud = 0;&amp;#10;a3aud = 0;&amp;#10;b3aud = 0;&amp;#10;c3aud = 0;&amp;#10;difFinder = function (i) {&amp;#10;    if ((JSON.stringify(i[0]) !== JSON.stringify(i[1])) &amp;&amp; (JSON.stringify(i[0]) !== JSON.stringify(i[2]))) {&amp;#10;        return 1;&amp;#10;    }&amp;#10;    if ((JSON.stringify(i[1]) !== JSON.stringify(i[0])) &amp;&amp; (JSON.stringify(i[1]) !== JSON.stringify(i[2]))) {&amp;#10;        return 2;&amp;#10;    }&amp;#10;    if ((JSON.stringify(i[2]) !== JSON.stringify(i[0])) &amp;&amp; (JSON.stringify(i[2]) !== JSON.stringify(i[1]))) {&amp;#10;        return 3;&amp;#10;    }&amp;#10;}&amp;#10;function shuffle_list_compare(List, lastLists) {&amp;#10;    var fffinal, lastCorrects, shuffeled;&amp;#10;    function shuffleCompare(l, lastCorrects) {&amp;#10;        var diff;&amp;#10;        util.shuffle(l);&amp;#10;        diff = difFinder(l);&amp;#10;        while (lastCorrects.includes(diff)) {&amp;#10;            util.shuffle(l);&amp;#10;            diff = difFinder(l);&amp;#10;        }&amp;#10;        console.log(diff, lastCorrects);&amp;#10;        return l;&amp;#10;    }&amp;#10;    fffinal = [];&amp;#10;    List.forEach((ii, index) =&gt; {&amp;#10;        lastCorrects = [];&amp;#10;        lastLists.forEach(i =&gt; {&amp;#10;            lastCorrects.push(difFinder(i[index]))&amp;#10;        })&amp;#10;        shuffeled = shuffleCompare(ii, lastCorrects);&amp;#10;        fffinal.push(shuffeled);&amp;#10;    })&amp;#10;    return fffinal;&amp;#10;}&amp;#10;x = [];&amp;#10;for (i = 0; i &lt; 3; i++) {&amp;#10;    var shuf = shuffle_list_compare(JSON.parse(JSON.stringify(total)), x)&amp;#10;    x.push(shuf)&amp;#10;}&amp;#10;console.log(JSON.stringify(x));&amp;#10;x.map(i =&gt; {&amp;#10;    util.shuffle(i);&amp;#10;})&amp;#10;finalList = [];&amp;#10;x.forEach(i =&gt; {&amp;#10;    i.forEach(ii =&gt; {&amp;#10;        finalList.push(ii)&amp;#10;    })&amp;#10;})&amp;#10;//console.log(JSON.stringify(finalList));&amp;#10;for (var i, _pj_c = 0, _pj_a = finalList, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    i.push(&quot;black&quot;);&amp;#10;}&amp;#10;ran1 = util.randint(10, 14);&amp;#10;finalList.insert(ran1, [[2, 2, 4, 1, 3, 1], [2, 2, 4, 1, 3, 1], [2, 2, 4, 3, 1, 1], &quot;green&quot;]);&amp;#10;ran1 = util.randint(22, 26);&amp;#10;finalList.insert(ran1, [[4, 2, 2, 1, 1, 2, 1], [4, 2, 2, 1, 1, 2, 1], [4, 2, 2, 2, 1, 1, 1], &quot;green&quot;]);&amp;#10;// --------------------------------------&amp;#10;//for (var i, _pj_c = 0, _pj_a = list1, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;//    i = _pj_a[_pj_c];&amp;#10;//    i.append(&quot;black&quot;);&amp;#10;//}&amp;#10;list1 = shuffle_list(JSON.parse(JSON.stringify(total)));&amp;#10;ran1 = randint(5, 9);&amp;#10;list1.insert(ran1, [[2, 2, 4, 1, 3, 1], [2, 2, 4, 1, 3, 1], [2, 2, 4, 3, 1, 1], &quot;green&quot;]);&amp;#10;ran1 = randint(15, 19);&amp;#10;list1.insert(ran1, [[4, 2, 2, 1, 1, 2, 1], [4, 2, 2, 1, 1, 2, 1], [4, 2, 2, 2, 1, 1, 1], &quot;green&quot;]);&amp;#10;list2 = shuffle_list(JSON.parse(JSON.stringify(total2)));&amp;#10;for (var i, _pj_c = 0, _pj_a = list2, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    i.append(&quot;black&quot;);&amp;#10;}&amp;#10;ran2 = randint(8, 12);&amp;#10;list2.insert(ran2, [[1, 1.4, 1, 1.4, 3.5, 3.5, 1], [1, 1.4, 1, 3.5, 1.4, 3.5, 1], [1, 1.4, 1, 1.4, 3.5, 3.5, 1], &quot;green&quot;]);&amp;#10;ran2 = randint(18, 22);&amp;#10;list2.insert(ran2, [[3.5, 1.4, 1.4, 3.5, 1, 1, 1], [3.5, 1.4, 3.5, 1.4, 1, 1, 1], [3.5, 1.4, 3.5, 1.4, 1, 1, 1], &quot;green&quot;]);&amp;#10;listSD = shuffle_list(JSON.parse(JSON.stringify(totalSD)));&amp;#10;for (var i, _pj_c = 0, _pj_a = listSD, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    i.append(&quot;black&quot;);&amp;#10;}&amp;#10;ran3 = randint(8, 12);&amp;#10;listSD.insert(ran3, [[4], [4], [3], &quot;green&quot;]);&amp;#10;ran3 = randint(18, 22);&amp;#10;listSD.insert(ran3, [[4.5], [4.5], [2], &quot;green&quot;]);&amp;#10;pListVisReg = [[[2, 1, 1, 3, 1, 1, 3, 1], [2, 1, 1, 3, 1, 3, 1, 1], [2, 1, 1, 3, 1, 1, 3, 1], &quot;green&quot;]];&amp;#10;pListVisIrreg = [[[1, 1, 3.5, 4.5, 3.5, 1], [1, 3.5, 1, 4.5, 3.5, 1], [1, 1, 3.5, 4.5, 3.5, 1], &quot;black&quot;], [[1.4, 1.4, 1, 1.4, 4.5, 1, 1], [1.4, 1.4, 1, 1.4, 4.5, 1, 1], [1.4, 1.4, 1, 4.5, 1.4, 1, 1], &quot;green&quot;], [[3.5, 1.4, 1.4, 1, 1, 1, 1.4, 1], [3.5, 1.4, 1.4, 1, 1, 1, 1.4, 1], [1.4, 3.5, 1.4, 1, 1, 1, 1.4, 1], &quot;black&quot;], [[3.5, 1, 1.4, 4.5, 1.4, 1], [1, 3.5, 1.4, 4.5, 1.4, 1], [1, 3.5, 1.4, 4.5, 1.4, 1], &quot;black&quot;], [[1, 3.5, 1.4, 3.5, 1.4, 1, 1], [1, 1.4, 3.5, 3.5, 1.4, 1, 1], [1, 3.5, 1.4, 3.5, 1.4, 1, 1], &quot;green&quot;], [[1.4, 3.5, 3.5, 1, 1, 1, 1, 1], [1.4, 3.5, 3.5, 1, 1, 1, 1, 1], [1.4, 3.5, 1, 3.5, 1, 1, 1, 1], &quot;black&quot;]];&amp;#10;pListVisSD = [[[1], [1], [3], &quot;black&quot;], [[2], [2], [1], &quot;green&quot;], [[3.5], [1.4], [3.5], &quot;black&quot;], [[4.5], [4.5], [3], &quot;green&quot;], [[2], [3.5], [3.5], &quot;black&quot;], [[2], [3.5], [2], &quot;black&quot;]];&amp;#10;intervall = list1[a][b].length;&amp;#10;intervall2 = list2[a2][b2].length;&amp;#10;pIntervall = total[a][b].length;&amp;#10;&amp;#10;rotation=function(intervall) {&amp;#10;    var rot5, rot6, rot7;&amp;#10;    rot5 = [0, 45, 0, 45, 0, 45];&amp;#10;    rot6 = [0, 45, 0, 45, 0, 45, 0];&amp;#10;    rot7 = [0, 45, 0, 45, 0, 45, 0, 45];&amp;#10;    if ((intervall === 6)) {&amp;#10;        return rot5;&amp;#10;    } else {&amp;#10;        if ((intervall === 7)) {&amp;#10;            return rot6;&amp;#10;        } else {&amp;#10;            if ((intervall === 8)) {&amp;#10;                return rot7;&amp;#10;            } else {&amp;#10;                if ((intervall === 1)) {&amp;#10;                    return [0, 0];&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;positionn=function(intervall) {&amp;#10;    var pos5, pos6, pos7;&amp;#10;    pos5 = [[(- 5), 0], [5, 0], [(- 5), 0], [5, 0], [(- 5), 0], [5, 0]];&amp;#10;    pos6 = [[(- 5), 0], [5, 0], [(- 5), 0], [5, 0], [(- 5), 0], [5, 0], [(- 5), 0]];&amp;#10;    pos7 = [[(- 5), 0], [5, 0], [(- 5), 0], [5, 0], [(- 5), 0], [5, 0], [(- 5), 0], [5, 0]];&amp;#10;    if ((intervall === 6)) {&amp;#10;        return pos5;&amp;#10;    } else {&amp;#10;        if ((intervall === 7)) {&amp;#10;            return pos6;&amp;#10;        } else {&amp;#10;            if ((intervall === 8)) {&amp;#10;                return pos7;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;repetitionn=function(intervall) {&amp;#10;    if ((intervall === 6)) {&amp;#10;        return 18;&amp;#10;    } else {&amp;#10;        if ((intervall === 7)) {&amp;#10;            return 21;&amp;#10;        } else {&amp;#10;            if ((intervall === 8)) {&amp;#10;                return 24;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;durationn=function(intervall, isAud = false) {&amp;#10;    var start5, start6, start7;&amp;#10;    if ((isAud === false)) {&amp;#10;        start5 = [1.5, 0, 0, 0, 0, 0];&amp;#10;        start6 = [1.5, 0, 0, 0, 0, 0, 0];&amp;#10;        start7 = [1.5, 0, 0, 0, 0, 0, 0, 0];&amp;#10;    } else {&amp;#10;        start5 = [1.5, 0.05, 0.05, 0.05, 0.05, 0.05];&amp;#10;        start6 = [1.5, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05];&amp;#10;        start7 = [1.5, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05];&amp;#10;    }&amp;#10;    if ((intervall === 6)) {&amp;#10;        return start5;&amp;#10;    } else {&amp;#10;        if ((intervall === 7)) {&amp;#10;            return start6;&amp;#10;        } else {&amp;#10;            if ((intervall === 8)) {&amp;#10;                return start7;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;getRandomVis = function(sd = false) {&amp;#10;    var r;&amp;#10;    console.log(`C1 : ${visCounter1} , C2 : ${visCounter2}, C3: ${visCounter3}`);&amp;#10;    r = randint(1, 4);&amp;#10;    if ((sd === true)) {&amp;#10;        if ((r === 1)) {&amp;#10;            if ((visCounter1 &lt; 12)) {&amp;#10;                visCounter1 += 1;&amp;#10;                console.log(`viscounter1 = ${visCounter1}`);&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;        if ((r === 2)) {&amp;#10;            if ((visCounter2 &lt; 12)) {&amp;#10;                visCounter2 += 1;&amp;#10;                console.log(`viscounter2 = ${visCounter2}`);&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;        if ((r === 3)) {&amp;#10;            if ((visCounter3 &lt; 12)) {&amp;#10;                visCounter3 += 1;&amp;#10;                console.log(`viscounter3 = ${visCounter3}`);&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;    } else {&amp;#10;        if ((r === 1)) {&amp;#10;            if ((visCounter1 &lt; 12)) {&amp;#10;                visCounter1 += 1;&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;        if ((r === 2)) {&amp;#10;            if ((visCounter2 &lt; 12)) {&amp;#10;                visCounter2 += 1;&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;        if ((r === 3)) {&amp;#10;            if ((visCounter3 &lt; 12)) {&amp;#10;                visCounter3 += 1;&amp;#10;                return r;&amp;#10;            } else {&amp;#10;                return getRandomVis();&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;&amp;#10;ran = randint(1, 3);&amp;#10;stop=function(List, a, b, c, isAud, ran) {&amp;#10;    if ((ran === 1)) {&amp;#10;        if (isAud) {&amp;#10;            return num1_to_sec(List[a][b][c], true);&amp;#10;        } else {&amp;#10;            return num1_to_sec(List[a][b][c]);&amp;#10;        }&amp;#10;    } else {&amp;#10;        if ((ran === 2)) {&amp;#10;            if (isAud) {&amp;#10;                return num2_to_sec(List[a][b][c], true);&amp;#10;            } else {&amp;#10;                return num2_to_sec(List[a][b][c]);&amp;#10;            }&amp;#10;        } else {&amp;#10;            if ((ran === 3)) {&amp;#10;                if (isAud) {&amp;#10;                    return num3_to_sec(List[a][b][c], true);&amp;#10;                } else {&amp;#10;                    return num3_to_sec(List[a][b][c]);&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;cross = new visual.ShapeStim({&quot;win&quot;: win, &quot;name&quot;: &quot;cross&quot;, &quot;vertices&quot;: &quot;cross&quot;, &quot;size&quot;: [0.05, 0.05], &quot;ori&quot;: 0, &quot;pos&quot;: [0, 0], &quot;lineWidth&quot;: 1, &quot;lineColor&quot;: [1, 1, 1], &quot;lineColorSpace&quot;: &quot;rgb&quot;, &quot;fillColor&quot;: [1, 1, 1], &quot;fillColorSpace&quot;: &quot;rgb&quot;, &quot;opacity&quot;: 1, &quot;depth&quot;: (- 1.0), &quot;interpolate&quot;: true});&amp;#10;counter = 0;&amp;#10;L1 = [0, 0, 0, 0, 0, 0];&amp;#10;L2 = [0, 0, 0, 0, 0, 0];&amp;#10;L3 = [0, 0, 0, 0, 0, 0];&amp;#10;L4 = [0, 0, 0, 1, 0, 0];&amp;#10;L5 = [0, 0, 0, 0, 0, 0];&amp;#10;L6 = [0, 0, 0, 0, 0, 0];&amp;#10;order = [L1, L2, L3, L4, L5, L6];&amp;#10;shuffle(order);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Both" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="main_intro">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.045" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank you for doing your daily practice. During this session, we will present you with three visual sequences in each trial and ask you to identify the one that is different. &amp;#10;This session consists of one visual block, and will take approximately 10 minutes. &amp;#10; &amp;#10;You are expected to practice this experiment for a total of 10 days. It is highly recommended to set up a daily reminder for yourself to ensure that you don't miss any of the 10 practice days. Remember that you cannot complete the post-test experiment unless the 10 sessions are completed.   &amp;#10;&amp;#10;Press on the “space bar” to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="sizeset">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Size Setting&amp;#10;&amp;#10;You will see a credit card on the screen.  Please take a moment to resize the image you see to match the dimensions of a credit card using the arrow keys on your keyboard.  This process is to ensure dimensional accuracy throughout the visual trials and account for computer screens with varying dimensions.&amp;#10;&amp;#10;Press on the “space bar” to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="screenScale">
+      <CodeComponent name="code_4">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="oldt=0&amp;#10;x_size=8.560&amp;#10;y_size=5.398&amp;#10;screen_height=0&amp;#10;&amp;#10;if win.units=='norm':&amp;#10;    x_scale=.05&amp;#10;    y_scale=.1&amp;#10;    dbase = .0001&amp;#10;    unittext=' norm units'&amp;#10;    vsize=2&amp;#10;elif win.units=='pix':&amp;#10;    x_scale=60&amp;#10;    y_scale=40&amp;#10;    dbase = .1&amp;#10;    unittext=' pixels'&amp;#10;    vsize=win.size[1]&amp;#10;else:&amp;#10;    x_scale=.05&amp;#10;    y_scale=.05&amp;#10;    dbase = .0001&amp;#10;    unittext=' height units'&amp;#10;    vsize=1" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="oldt = 0;&amp;#10;x_size = 8.56;&amp;#10;y_size = 5.398;&amp;#10;screen_height = 0;&amp;#10;if ((psychoJS.window.units === &quot;norm&quot;)) {&amp;#10;    x_scale = 0.05;&amp;#10;    y_scale = 0.1;&amp;#10;    dbase = 0.0001;&amp;#10;    unittext = &quot; norm units&quot;;&amp;#10;    vsize = 2;&amp;#10;} else {&amp;#10;    if ((psychoJS.window.units === &quot;pix&quot;)) {&amp;#10;        x_scale = 60;&amp;#10;        y_scale = 40;&amp;#10;        dbase = 0.1;&amp;#10;        unittext = &quot; pixels&quot;;&amp;#10;        vsize = psychoJS.window.size[1];&amp;#10;    } else {&amp;#10;        x_scale = 0.05;&amp;#10;        y_scale = 0.05;&amp;#10;        dbase = 0.0001;&amp;#10;        unittext = &quot; height units&quot;;&amp;#10;        vsize = 1;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="psychoJS.eventManager.clearEvents();&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="event.clearEvents()" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="keys=event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if t-oldt&lt;.5:&amp;#10;        dscale=5*dbase&amp;#10;        oldt=t&amp;#10;    else:&amp;#10;        dscale=dbase&amp;#10;        oldt=t&amp;#10;    if 'space' in keys and t &gt; 1:&amp;#10;        continueRoutine=False&amp;#10;    elif 'up' in keys:&amp;#10;        y_scale=round((y_scale+dscale)*10000)/10000&amp;#10;    elif 'down' in keys:&amp;#10;        y_scale=round((y_scale-dscale)*10000)/10000&amp;#10;    elif 'left' in keys:&amp;#10;        x_scale=round((x_scale-dscale)*10000)/10000&amp;#10;    elif 'right' in keys:&amp;#10;        x_scale=round((x_scale+dscale)*10000)/10000&amp;#10;    screen_height=round(vsize*10/y_scale)/10&amp;#10;    #text_bottom.text='X Scale = '+str(x_scale)+unittext+' per cm, Y Scale = '+str(y_scale)+unittext+' per cm\nScreen height = '+str(screen_height)+' cm\n\nPress the space bar when done'&amp;#10;    image.size=[x_size*x_scale, y_size*y_scale]&amp;#10;    " valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (((t - oldt) &lt; 0.5)) {&amp;#10;        dscale = (5 * dbase);&amp;#10;        oldt = t;&amp;#10;    } else {&amp;#10;        dscale = dbase;&amp;#10;        oldt = t;&amp;#10;    }&amp;#10;    if ((_pj.in_es6(&quot;space&quot;, keys) &amp;&amp; (t &gt; 1))) {&amp;#10;        continueRoutine = false;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;up&quot;, keys)) {&amp;#10;            y_scale = (Math.round(((y_scale + dscale) * 10000)) / 10000);&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;down&quot;, keys)) {&amp;#10;                y_scale = (Math.round(((y_scale - dscale) * 10000)) / 10000);&amp;#10;            } else {&amp;#10;                if (_pj.in_es6(&quot;left&quot;, keys)) {&amp;#10;                    x_scale = (Math.round(((x_scale - dscale) * 10000)) / 10000);&amp;#10;                } else {&amp;#10;                    if (_pj.in_es6(&quot;right&quot;, keys)) {&amp;#10;                        x_scale = (Math.round(((x_scale + dscale) * 10000)) / 10000);&amp;#10;                    }&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    screen_height = (Math.round(((vsize * 10) / y_scale)) / 10);&amp;#10;    image.size = [(x_size * x_scale), (y_size * y_scale)];&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="psychoJS.experiment.addData(&quot;X Scale&quot;, x_scale);&amp;#10;psychoJS.experiment.addData(&quot;Y Scale&quot;, y_scale);&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="thisExp.addData('X Scale',x_scale)&amp;#10;thisExp.addData('Y Scale',y_scale)&amp;#10;" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_4" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Resize this image to match the size of a credit card&amp;#10;Up arrow for taller&amp;#10;Down arrow for shorter&amp;#10;Left arrow for narrower&amp;#10;Right arrow for wider" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.5" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press the &quot;space bar&quot; when done" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1.5" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="bank-1300155_640.png" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.05)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="$(x_size*x_scale, y_size*y_scale)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="visprep">
+      <CodeComponent name="code_5">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="introText = &quot;Visual Sequence\n\nYou will see three sequences of rotating squares on the screen. The timing pattern of one of these sequences is different from the other two. \n\nAfter seeing all three sequences, you will be asked which sequence was different from the other two by pressing 1, 2, or 3 on the keyboard.\n\nNotice that the answers you provide will be reviewed and analyzed. Please remain focused and attentive while providing your answers.\n\nPress on the \u201cspace bar\u201d to continue.&quot;;&amp;#10;pIntroText = &quot;During the experiment whenever you see green squares on the screen, like the one in the next trial, make sure to press on the \u201cG\u201d key instead of 1,2, or 3 regardless of what the question prompt says. \n\nPress on the \u201cspace bar\u201d to continue.&quot;;&amp;#10;visCounter1 = 0;&amp;#10;visCounter2 = 0;&amp;#10;visCounter3 = 0;&amp;#10;isPractice = true;&amp;#10;intro_text = &quot;&quot;;&amp;#10;mainInterval = null;&amp;#10;showIntro = true;&amp;#10;mainList = null;&amp;#10;listUpdated = false;&amp;#10;regVisPracReps = 1;&amp;#10;regVisReps = 36;&amp;#10;ran = util.randint(1, 4);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="introText = &quot;&quot;&quot;Visual Sequence&amp;#10;&amp;#10;You will see three sequences of rotating squares on the screen. The timing pattern of one of these sequences is different from the other two. &amp;#10;&amp;#10;After seeing all three sequences, you will be asked which sequence was different from the other two by pressing 1, 2, or 3 on the keyboard.&amp;#10;&amp;#10;Notice that the answers you provide will be reviewed and analyzed. Please remain focused and attentive while providing your answers.&amp;#10;&amp;#10;Press on the “space bar” to continue.&quot;&quot;&quot;&amp;#10;pIntroText = &quot;&quot;&quot;During the experiment whenever you see green squares on the screen, like the one in the next trial, make sure to press on the “G” key instead of 1,2, or 3 regardless of what the question prompt says. &amp;#10;&amp;#10;Press on the “space bar” to continue.&quot;&quot;&quot;&amp;#10;visCounter1 = 0&amp;#10;visCounter2 = 0&amp;#10;visCounter3 = 0&amp;#10;&amp;#10;isPractice = True&amp;#10;intro_text = &quot;&quot;&amp;#10;mainInterval = None&amp;#10;showIntro = True&amp;#10;mainList = None&amp;#10;listUpdated = False&amp;#10;regVisPracReps = 1&amp;#10;regVisReps = 36&amp;#10;&amp;#10;ran = randint(1,4)&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_5" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="pcode">
+      <CodeComponent name="code_6">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((isPractice === true)) {&amp;#10;    intro_text = pIntroText;&amp;#10;    mainList = pListVisReg;&amp;#10;    mainInterval = pListVisReg[a][b].length;&amp;#10;    if ((mainList[a][3] === &quot;green&quot;)) {&amp;#10;        visregACintro = 1;&amp;#10;    } else {&amp;#10;        visregACintro = 0;&amp;#10;    }&amp;#10;} else {&amp;#10;    intro_text = introText;&amp;#10;    if ((listUpdated === false)) {&amp;#10;        mainList = finalList;&amp;#10;        listUpdated = true;&amp;#10;    }&amp;#10;    mainInterval = finalList[a][b].length;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if(isPractice == True):&amp;#10;    intro_text = pIntroText&amp;#10;    mainList = pListVisReg&amp;#10;    mainInterval = len(pListVisReg[a][b])&amp;#10;    if mainList[a][3]=='green':&amp;#10;        visregACintro = 1&amp;#10;    else:&amp;#10;        visregACintro = 0&amp;#10;else:&amp;#10;    intro_text = introText&amp;#10;    if listUpdated == False: &amp;#10;        mainList = finalList&amp;#10;        listUpdated = True&amp;#10;    mainInterval = len(finalList[a][b])" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_6" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="visregACintro"/>
+    <Routine name="introVisReg">
+      <CodeComponent name="code_7">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((showIntro !== true)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if showIntro != True:&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="showIntro = false;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="showIntro = False" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_7" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every frame" val="$intro_text" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="RegVis">
+      <CodeComponent name="code_8">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# cross.setAutoDraw(True) #this is for starting the fixation cross &amp;#10;#if mainList[a][3]=='black':&amp;#10;#    allowedkeys=['1','2','3']&amp;#10;#else:&amp;#10;#    allowedkeys=[]&amp;#10;#" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_8" valType="code"/>
+      </CodeComponent>
+      <PolygonComponent name="polygon">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$mainList[a][3]" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="set every repeat" val="$mainList[a][3]" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="set every repeat" val="rotation(mainInterval)[c]" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="None" val="rectangle" valType="str"/>
+        <Param name="size" updates="set every repeat" val="(3*x_scale, 3*y_scale)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$durationn(mainInterval)[c]" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$stop(mainList,a,b,c,False,ran)" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="codeSeqVis">
+      <CodeComponent name="code_9">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((isPractice === true)) {&amp;#10;    trials.addData(&quot;Pr_SEQvis1&quot;, mainList[a][b][c]);&amp;#10;    trials.addData(&quot;Pr_NumberOfIntervals&quot;, mainList[a][b]);&amp;#10;    trials.addData(&quot;Pr_SEQvis3&quot;, stop(mainList, a, b, c, false, ran));&amp;#10;    trials.addData(&quot;Pr_Speed&quot;, ran);&amp;#10;    trials.addData(&quot;Pr_Pattern&quot;, (mainInterval - 1));&amp;#10;    trials.addData(&quot;Pr_Diff&quot;, difFinder(mainList[a]));&amp;#10;    trials.addData(&quot;Pr_Color&quot;, mainList[a][3]);&amp;#10;} else {&amp;#10;    trials.addData(&quot;SEQvis1&quot;, mainList[a][b][c]);&amp;#10;    trials.addData(&quot;NumberOfIntervals&quot;, mainList[a][b]);&amp;#10;    trials.addData(&quot;SEQvis3&quot;, stop(mainList, a, b, c, false, ran));&amp;#10;    trials.addData(&quot;Speed&quot;, ran);&amp;#10;    trials.addData(&quot;Pattern&quot;, (mainInterval - 1));&amp;#10;    trials.addData(&quot;Diff&quot;, difFinder(mainList[a]));&amp;#10;    trials.addData(&quot;Color&quot;, mainList[a][3]);&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if isPractice == True:&amp;#10;    trials.addData('Pr_SEQvis1',mainList[a][b][c])&amp;#10;    trials.addData('Pr_NumberOfIntervals',mainList[a][b])&amp;#10;    trials.addData('Pr_SEQvis3',stop(mainList,a,b,c,False,ran))&amp;#10;    trials.addData('Pr_Speed',ran)&amp;#10;    trials.addData('Pr_Pattern',mainInterval-1)&amp;#10;    trials.addData('Pr_Diff',difFinder(mainList[a]))&amp;#10;    trials.addData('Pr_Color',mainList[a][3])&amp;#10;else:&amp;#10;    trials.addData('SEQvis1',mainList[a][b][c])&amp;#10;    trials.addData('NumberOfIntervals',mainList[a][b])&amp;#10;    trials.addData('SEQvis3',stop(mainList,a,b,c,False,ran))&amp;#10;    trials.addData('Speed',ran)&amp;#10;    trials.addData('Pattern',mainInterval-1)&amp;#10;    trials.addData('Diff',difFinder(mainList[a]))&amp;#10;    trials.addData('Color',mainList[a][3])" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="if ((isPractice === false)) {&amp;#10;    if ((c &lt; (mainInterval - 1))) {&amp;#10;        c += 1;&amp;#10;    } else {&amp;#10;        c = 0;&amp;#10;        if ((b &lt; 2)) {&amp;#10;            b += 1;&amp;#10;        } else {&amp;#10;            b = 0;&amp;#10;            if ((a &lt; 37)) {&amp;#10;                a += 1;&amp;#10;                if ((mainList[a][3] === &quot;green&quot;)) {&amp;#10;                    ran = util.randint(1, 4);&amp;#10;                    console.log(ran, &quot;Attention Check&quot;);&amp;#10;                } else {&amp;#10;                    ran = getRandomVis();&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;} else {&amp;#10;    if ((c &lt; (mainInterval - 1))) {&amp;#10;        c += 1;&amp;#10;    } else {&amp;#10;        c = 0;&amp;#10;        if ((b &lt; 2)) {&amp;#10;            b += 1;&amp;#10;        } else {&amp;#10;            b = 0;&amp;#10;            if ((a &lt; 25)) {&amp;#10;                a += 1;&amp;#10;                ran = util.randint(1, 4);&amp;#10;                console.log(ran, &quot;Practice&quot;);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if isPractice == False:&amp;#10;    if c&lt;mainInterval-1:&amp;#10;        c+=1&amp;#10;    else:&amp;#10;        c=0&amp;#10;        if b&lt;2:&amp;#10;            b+=1&amp;#10;        else:&amp;#10;            b=0&amp;#10;            if a&lt;37:&amp;#10;                a+=1&amp;#10;                if mainList[a][3] == &quot;green&quot;:&amp;#10;                    ran=randint(1,4)&amp;#10;                    print(ran,&quot;Attention Check&quot;)&amp;#10;                else:&amp;#10;                    ran=getRandomVis()&amp;#10;else:&amp;#10;    if c&lt;mainInterval-1:&amp;#10;        c+=1&amp;#10;#        stop(mainList,a,b,c,False,ran)&amp;#10;    else:&amp;#10;        c=0&amp;#10;        if b&lt;2:&amp;#10;            b+=1&amp;#10;#            stop(mainList,a,b,c,False,ran)&amp;#10;        else:&amp;#10;            b=0&amp;#10;            if a&lt;25:&amp;#10;                a+=1&amp;#10;                ran=randint(1,4)&amp;#10;                print(ran,&quot;Practice&quot;)&amp;#10;#                stop(mainList,a,b,c,False,ran)&amp;#10;#                mainInterval=len(mainList[a][b])&amp;#10;&amp;#10;#if mainList[a][3]=='black':&amp;#10;#    allowedkeys=['1','2','3']&amp;#10;##    print(mainList[a][3])&amp;#10;#else:&amp;#10;#    allowedkeys=[]&amp;#10;#" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_9" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="quesPracVisReg">
+      <CodeComponent name="code_10">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((isPractice === false)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;cross.setAutoDraw(false);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;if isPractice == False:&amp;#10;    continueRoutine = False&amp;#10;    &amp;#10;cross.setAutoDraw(False) #this is for ending the fixation cross" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_10" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Which one was different?&amp;#10;&amp;#10;First presentation  &gt;  Key &quot;1&quot;&amp;#10;Second presentation  &gt;  Key &quot;2&quot;&amp;#10;Third presentation  &gt;  Key &quot;3&quot;&amp;#10;&amp;#10;If you are not sure, please guess." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="set every repeat" val="'1','2','3','g'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="questionvis">
+      <CodeComponent name="code_11">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((isPractice === true)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;cross.setAutoDraw(false);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if isPractice == True:&amp;#10;    continueRoutine = False&amp;#10;    &amp;#10;cross.setAutoDraw(False) #this is for ending the fixation cross" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="if (((a &gt; (regVisPracReps - 1)) &amp;&amp; (isPractice === true))) {&amp;#10;    a = 0;&amp;#10;    b = 0;&amp;#10;    c = 0;&amp;#10;    isPractice = false;&amp;#10;    console.log(&quot;isPractice is false now&quot;);&amp;#10;    showIntro = true;&amp;#10;    ran = getRandomVis();&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if a &gt; regVisPracReps - 1 and isPractice == True:&amp;#10;    a = 0&amp;#10;    b = 0&amp;#10;    c = 0&amp;#10;    isPractice = False&amp;#10;    print('isPractice is false now')&amp;#10;    showIntro = True&amp;#10;    ran = getRandomVis()" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_11" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="text_7">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Which one was different?&amp;#10;&amp;#10;First presentation  &gt;  Key &quot;1&quot;&amp;#10;Second presentation  &gt;  Key &quot;2&quot;&amp;#10;Third presentation  &gt;  Key &quot;3&quot;&amp;#10;&amp;#10;If you are not sure, please guess." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="allowedKeys" updates="set every repeat" val="'1','2','3','g'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text_8">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="You have finished your practice session. &amp;#10;&amp;#10;Please do not close the browser. Press on the “space bar” to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_6">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_6" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="code_js"/>
+    <Routine name="code_2"/>
+    <Routine name="main_intro"/>
+    <Routine name="sizeset"/>
+    <Routine name="screenScale"/>
+    <Routine name="visprep"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="regVisPracReps + regVisReps+2" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="pcode"/>
+    <Routine name="introVisReg"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="repetitionn(mainInterval)" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="RegVis"/>
+    <Routine name="codeSeqVis"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="quesPracVisReg"/>
+    <Routine name="questionvis"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
