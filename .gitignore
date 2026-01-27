@@ -3,7 +3,7 @@
 # keep documentation
 !**/data/README.md
 # keep sample end_of_study questionnaire data
-!**/data/End_of_study_Q_sample.xlsx
+!**/data/EndofStudyQuestionnaire_Pretest_sample.xlsx
 # keep sample raw experimental data
 !**/data/1_raw_data_sample/
 !**/data/1_raw_data_sample/**
