@@ -90,5 +90,5 @@ These data were later used to assess potential order effects, such as whether co
   This spreadsheet is the preprocessed version of `PrimaryResults_prepost.xlsx`.
 
 - **Participant exclusion criteria:**  
-  Data from 11 participants identified as outliers were excluded from analysis due to proportional performance (gain scores) that fell more than 3 standard deviations below the mean resulting in a sample size of **N = 64**. The analysis for this is included in `EDA-preprocessing/Proportional results (Pre-Post) + finding outliers.ipynb`. 
+  Data from 11 participants identified as outliers were excluded from analysis due to proportional performance (gain scores) that fell more than 3 standard deviations below the mean resulting in a sample size of **N = 64**. The corresponding analysis is documented in `EDA-preprocessing/Proportional results (Pre-Post) + finding outliers.ipynb`. 
 
