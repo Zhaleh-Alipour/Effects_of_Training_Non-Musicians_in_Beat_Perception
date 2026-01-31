@@ -2,7 +2,7 @@
 
 ## PrimaryResults_audtraining.xlsx
 - **Description:**  
-  This file contains the results of training participants in `auditory beat sequence` timing from all participants in the auditory training group (**N = 26**).
+  This file contains the results of training participants in **auditory beat sequence** timing from all participants in the auditory training group (**N = 26**).
 
 - **Column 2 (AudReg): Block-wise performance with detailed annotations**  
   The columns report participant performance across the auditory beat sequence block.
@@ -48,3 +48,16 @@ The dataset has been further processed by **removing outliers** identified durin
 
 In addition, the file includes each participant’s **performance in the auditory beat sequence block for both pre-test and post-test sessions**. These values were extracted from `pre-post_experiment/results/PreprocessedResults_NoOutliers.xlsx` and appended to the `AudReg` column.
 
+--- 
+
+## TrainingMaterials.csv
+
+This file contains the results of the item analysis conducted on the final sample of participants (**N = 64**).  
+The analysis was performed using the script `EDA-preprocessing/ItemAnalysis_inPerson.js`.
+
+After completing the item analysis, column names were updated:
+- A prefix of `1` was added to columns corresponding to **auditory training group 1** materials.
+- A prefix of `2` was added to columns corresponding to **auditory training group 2** materials.
+
+This file is used to visualize performance differences between **trained** and **untrained** trials, as implemented in  
+`visualizations/Trained_untrained trial difference.ipynb`.
